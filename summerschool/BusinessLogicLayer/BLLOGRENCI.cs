@@ -8,7 +8,7 @@ using DataAccessLayer;
 
 namespace BusinessLogicLayer
 {
-    internal class Class2
+    internal class BLLOgrenci
     {
         public static int OgrenciEkle(EntityOgrenci p)
         {

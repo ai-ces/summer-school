@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "summerschool", "summerschool\", "{E3AD53DD-B5FA-4392-8141-92E095309D69}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{c7e53ae0-cfd9-44c2-bd3a-2e579531da1f}|BusinessLogicLayer.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_61014"
 		Debug.AspNetCompiler.PhysicalPath = "summerschool\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61014\"
@@ -29,7 +30,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{6BA4E932-D70E-4D06-A80D-5E6F778E6EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{C7E53AE0-CFD9-44C2-BD3A-2E579531DA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{C7E53AE0-CFD9-44C2-BD3A-2E579531DA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

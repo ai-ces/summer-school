@@ -4,11 +4,27 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using EntityLayer;
+using DataAccessLayer;
+using ;
 
 public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        EntityOgrenci ent = new EntityOgrenci();
+        ent.AD = "deneme101";
+        ent.SOYAD = "deneme102";
+        ent.NUMARA = "1003";
+        ent.SIFRE = "123";
+        ent.FOTOGRAF = "test";
+
+        BllOgrenci.OgrenciEkleBLL(ent);
 
     }
 }

@@ -31,7 +31,7 @@
         public string NUMARA
         {
             get { return numara; }
-            set { numara = value }
+            set { numara = value; }
         }
 
 
